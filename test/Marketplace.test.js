@@ -27,7 +27,7 @@ contract('Marketplace', ([deployer, seller, buyer]) => {
         })
 
     })
-
+    
     describe('products', async () => {
         let result, productCount
         before(async () => {
